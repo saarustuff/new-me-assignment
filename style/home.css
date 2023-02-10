@@ -61,3 +61,35 @@ nav li {
     margin-top: 25px;
     margin-bottom: 30px;
 }
+
+/* failure section styles */
+.failure-section{
+    margin: 200px 130px;
+    display: flex;
+    align-items: center;
+}
+.failure-section img{
+    width: 570px;
+    height: 725px;
+}
+.failure-content{
+    margin-left: 90px;
+    text-align: left;
+    width: 416px;
+    height: 400px;
+}
+.failure-content p{
+    margin-top: 20px;
+}
+.failure-content i{
+    color: green;
+    padding-right: 15px;
+}
+.failure-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+.failure-sub-title{
+    color: #444343e8;
+}
