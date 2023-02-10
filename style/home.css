@@ -78,12 +78,17 @@ nav li {
     width: 416px;
     height: 400px;
 }
-.failure-content p{
+.failure-content p, .success-content p{
     margin-top: 20px;
 }
 .failure-content i{
-    color: green;
+    color: #ff0606;
     padding-right: 15px;
+}
+.success-content i{
+    color: rgb(21, 193, 21);
+    padding-right: 15px;
+
 }
 .failure-title{
     color: #151414;
@@ -92,4 +97,35 @@ nav li {
 }
 .failure-sub-title{
     color: #444343e8;
+}
+
+/* success section styles */
+
+.success-section{
+    padding-left: 100px;
+}
+.success-content{
+    margin-right: 90px;
+    text-align: left;
+    width: 416px;
+    height: 400px;
+}
+
+/* My Success Shape */
+.my-success-img .rounded_shape {
+	background-color: #f5f5f5;
+	position: absolute;
+	/* bottom: 0; */
+	height: 570px;
+	width: 570px;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+/* My Success Image */
+.my-success-img img {
+	height: auto;
+	width: 570px;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
 }
